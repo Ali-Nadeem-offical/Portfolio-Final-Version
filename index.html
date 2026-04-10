@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Nadeem - Full Stack Developer &amp; UI Designer</title>
+    <meta name="description" content="Professional portfolio of Ali Nadeem - Full Stack Developer specializing in React, Node.js, and modern web technologies. View my featured projects and expertise.">
+    <meta name="author" content="Ali Nadeem" />
+    <meta name="keywords" content="React Developer, Full Stack Developer, UI Designer, Web Development, JavaScript, Node.js" />
+    <meta name="theme-color" content="#a855f7" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://loving-loops.lovable.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://loving-loops.lovable.app/" />
+    <meta property="og:title" content="Ali Nadeem - Full Stack Developer &amp; UI Designer">
+    <meta property="og:description" content="Professional portfolio of Ali Nadeem - Full Stack Developer specializing in React, Node.js, and modern web technologies. View my featured projects and expertise.">
+    <meta property="og:image" content="/uploads/906f9bd5-3df4-424e-b2dd-687c4307e2f2.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ali Nadeem - Full Stack Developer &amp; UI Designer">
+    <meta name="twitter:description" content="Professional portfolio of Ali Nadeem - Full Stack Developer specializing in React, Node.js, and modern web technologies. View my featured projects and expertise.">
+    <meta name="twitter:image" content="/uploads/906f9bd5-3df4-424e-b2dd-687c4307e2f2.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Performance Optimizations -->
+    <link rel="preload" as="image" href="/uploads/avatar.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ali Nadeem",
+      "jobTitle": "Full Stack Developer",
+      "url": "https://loving-loops.lovable.app",
+      "sameAs": [
+        "https://github.com/ali-itexpert",
+        "https://www.linkedin.com/in/ali-nadeem-74bb523b6/",
+        "https://www.fiverr.com/ali_nadeem_4665",
+        "https://www.upwork.com/freelancers/~016de85ce8f7ef22e7"
+      ]
+    }
+    </script>
+
+    <!-- Performance: Reduce initial paint time -->
+    <style>
+      :root {
+        --primary: 270 70% 55%;
+      }
+
+      body {
+        background: #0d0d0d;
+        color: #f2f2f2;
+        font-family: system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+      }
+
+      @font-face {
+        font-family: 'system-ui';
+        src: local('system-ui');
+        font-display: swap;
+      }
+    </style>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+
+  <body>
+    <div id="root">
+      <div id="initial-loader" style="position:fixed;inset:0;background:#0d0d0d;display:flex;align-items:center;justify-content:center;z-index:9999">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:24px">
+          <div style="position:relative;width:96px;height:96px;display:flex;align-items:center;justify-content:center">
+            <div style="position:absolute;inset:0;border-radius:50%;border:2px solid transparent;border-top-color:hsl(270,70%,55%);border-right-color:hsl(270,70%,55%);opacity:.75;animation:il-spin 1s linear infinite"></div>
+            <div style="position:absolute;inset:8px;border-radius:50%;border:2px solid transparent;border-bottom-color:hsl(270,70%,55%);opacity:.5;animation:il-spin 2s linear infinite reverse"></div>
+            <div style="width:16px;height:16px;border-radius:50%;background:hsl(270,70%,55%);animation:il-pulse 1.5s ease-in-out infinite;box-shadow:0 0 12px hsl(270,70%,55%,0.5)"></div>
+          </div>
+          <p style="color:#f2f2f2;font-size:18px;font-family:system-ui,-apple-system,sans-serif;font-weight:500">Loading Portfolio...</p>
+          <div style="width:192px;height:4px;background:#222;border-radius:9999px;overflow:hidden">
+            <div style="height:100%;background:linear-gradient(90deg,hsl(270,70%,55%),hsl(270,70%,65%));border-radius:9999px;animation:il-pulse 2s ease-in-out infinite"></div>
+          </div>
+        </div>
+        <style>
+          @keyframes il-spin{to{transform:rotate(360deg)}}
+          @keyframes il-pulse{0%,100%{opacity:.4;transform:scale(.95)}50%{opacity:1;transform:scale(1)}}
+        </style>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
